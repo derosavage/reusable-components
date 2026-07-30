@@ -166,4 +166,123 @@ STRUCTURES
 
 **With those principles, this backend can comfortably support multiple applications—including your trading platform, analytics dashboard, and future SaaS products—without requiring major architectural changes.**
 
+## Repository Structure
 
+(Explain every folder)
+
+---
+
+## Technology Stack
+
+Backend:
+- Python
+- Flask
+- Redis
+- PostgreSQL
+
+Infrastructure:
+- Docker
+- Celery
+
+---
+
+## Installation
+
+### Clone
+
+git clone ...
+
+### Install
+
+pip install -r requirements.txt
+
+### Configure
+
+Copy .env.example
+
+### Run
+
+docker compose up
+
+---
+
+## Services
+
+### Authentication Service
+
+Purpose
+
+Responsibilities
+
+Endpoints
+
+Dependencies
+
+### Analytics Service
+
+Purpose
+
+Responsibilities
+
+Endpoints
+
+Dependencies
+
+(Repeat for every service)
+
+---
+
+## Development Workflow
+
+How to create branches
+
+How to commit
+
+How to run tests
+
+---
+
+## Testing
+
+pytest
+
+---
+
+## Deployment
+
+Docker
+
+Production
+
+Environment variables
+
+---
+
+## Roadmap
+
+Current progress
+
+Upcoming work
+**Keep Flask focused as a thin API gateway. If you anticipate significant growth, consider evaluating dedicated gateways such as Kong, Traefik, or Envoy later, but Flask is a reasonable starting point.**
+
+**Make every long-running or external integration (Daraja, analytics jobs, LLM calls) asynchronous through queues and workers rather than handling them directly in request/response cycles.**
+
+**Designe every service to be stateless, storing shared state in PostgreSQL, Redis, or object storage. That makes horizontal scaling straightforward as your platform grows.**
+
+
+
+
+## Contributing
+
+Steps
+
+---
+
+## License
+
+MIT
+
+---
+
+## Author
+by DEREk
