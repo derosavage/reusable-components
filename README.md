@@ -3,6 +3,27 @@ REUSABLE COMPONENTS
  ## Overview
 Why it exists? to make  engineering and development faster
  for frontend ,backend , fullstack enineers , quantitative traders.
+
+   ## Project Status
+
+     **Version:** v0.9.0 (Beta)
+
+**Current Focus**
+- Authentication Service ✅
+- API Gateway ✅
+- Daraja Integration ✅
+- Analytics Service 🚧
+- LLM Service 🚧
+ BADGES
+![Python](https://img.shields.io/badge/Python-3.12-blue)
+![Flask](https://img.shields.io/badge/Flask-3.x-black)
+![Docker](https://img.shields.io/badge/Docker-Ready-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Status](https://img.shields.io/badge/Status-Active-success)
+**Planned**
+- Kubernetes deployment
+- Observability
+- Service discovery
 ## Features 
 x20;    BACKEND
 
@@ -285,4 +306,7 @@ MIT
 ---
 
 ## Author
-by DEREk
+
+Built with ❤️ by Dero Savage
+
+If this project helps you, consider giving it a ⭐ on GitHub.
